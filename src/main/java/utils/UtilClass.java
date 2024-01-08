@@ -50,6 +50,8 @@ public class UtilClass {
 		ChromeOptions options = new ChromeOptions();
 		if (browser.equalsIgnoreCase("Chrome")) {
 
+			   System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver-win64\\chromedriver.exe");
+			
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("Firefox")) {
 
