@@ -32,10 +32,10 @@ public class ValidateTitlePage extends ProjectSpecifications {
 	@FindBy(xpath = "//span[text()='More']")
 	WebElement More;
 
-	@FindBy(xpath = "(//a[text()='Gift Cards'])[1]")
+	@FindBy(xpath = "(//a[text()='Gift Cards'])[2]")
 	WebElement GiftCards;
 
-	@FindBy(xpath = "//a[text()='Gift Ideas']")
+	@FindBy(xpath = "(//a[text()='Gift Ideas'])[2]")
 	WebElement GiftIdeas;
 
 	@FindBy(xpath = "(//a[text()='Yes, Best Buy Sells That'])[1]")
@@ -83,6 +83,9 @@ public class ValidateTitlePage extends ProjectSpecifications {
 	@FindBy(xpath = "//a[contains(text(), 'See all your saved items')]")
 	WebElement seeallyoursaveditems;
 
+	@FindBy(xpath = "//a[contains(text(), 'CA Supply Chain Transparency Act')]")
+	WebElement CASupplyChainTransparencyAct;
+	
 	public ValidateTitlePage() {
 		PageFactory.initElements(driver, this);
 	}
@@ -108,7 +111,7 @@ public class ValidateTitlePage extends ProjectSpecifications {
 	}
 
 	public void clickMore() {
-		clickMore();
+		click(More);
 	}
 
 	public void clickGiftCards(String Title5) {
@@ -144,17 +147,19 @@ public class ValidateTitlePage extends ProjectSpecifications {
 		validateTitle(Title9);
 	}
 
-	public void clickRecentlyViewed(String Title10) {
+	public void clickRecentlyViewed() {
 		click(RecentlyViewed);
-		validateTitle(Title10);
+		
 	}
 
-	public void clickManageAllYourRecentlyViewedItems() {
+	public void clickManageAllYourRecentlyViewedItems(String Title10) {
 		click(Manageallyourrecentlyvieweditems);
+		validateTitle(Title10);
 	}
 
 	public void clickOrderStatus(String Title11) {
 		click(OrderStatus);
+		click(ContinueButton);
 		validateTitle(Title11);
 	}
 
@@ -165,6 +170,7 @@ public class ValidateTitlePage extends ProjectSpecifications {
 
 	public void clickSavedItems(String Title12) {
 		click(SavedItems);
+		clickSeeAllYourSavedItems();
 		validateTitle(Title12);
 	}
 
@@ -176,8 +182,12 @@ public class ValidateTitlePage extends ProjectSpecifications {
 		click(returntopreviouspage);
 	}
 
+	
+	
+	
+	
 	// public void clickCreditCards() {
-//		click(creditCards);
+    //click(creditCards);
 	// }
 
 }

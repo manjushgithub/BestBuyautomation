@@ -27,35 +27,43 @@ public class TC05_ValidateBottomLinks extends ProjectSpecifications {
 	home.scroll();
 	vbl.clickaccessibility("Accessibility - Best Buy");
 	
-	
-
 	home.scroll();
 	vbl.clickTermsandConditons("BestBuy.com Terms and Conditions");
-
+	
+	home.scroll();
+	vbl.clickPrivacy("Privacy Policy Hub - Best Buy");
+	
+	home.scroll();
+	vbl.clickInterestBasedAds("Interest-Based Ads - Best Buy");
 	
 	
 	home.scroll();
-	vbl.validateTitle("Privacy Policy Hub - Best Buy");
-	
-	home.scroll();
-	vbl.validateTitle("Interest-Based Ads - Best Buy");
-	
-	
-	home.scroll();
-    vbl.validateTitle("State Privacy Rights - Best Buy");
+    vbl.clickStatePrivacyRights("State Privacy Rights - Best Buy");
 	
 
 	home.scroll();
-    //vbl.validateTitle("Privacy Policy Hub - Best Buy");
+    vbl.clickHealthDataPrivacy("Privacy Policy Hub - Best Buy");
+	
+    home.scroll();
+    vbl.clickDoNotSellOrShareMyPersonalInformation("Start Request - Best Buy");
+    home.scroll();
+    vbl.clickReturnToHomePage();
+	
+	home.scroll();
+	vbl.clickLimitUseOfMySensitivePersonalInformation("Best Buy");
+	home.scroll();
+    vbl.clickReturnToHomePage();
 	
 	
 	home.scroll();
-	vbl.validateTitle("Start Request - Best Buy");
-	
-
-	home.validateTitle("Start Request - Best Buy");
+	vbl.clickTargetedAdvertisingOptOut("Start Request - Best Buy");
 	home.scroll();
-	home.validateTitle("California Supply Chain Transparency Act - Best Buy");
+    vbl.clickReturnToHomePage();
+	
+	
+	
+	home.scroll();
+	vbl.clickCASupplyChainTransparencyAct("California Supply Chain Transparency Act - Best Buy");
 	
 	}
 

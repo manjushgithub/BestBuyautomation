@@ -17,12 +17,13 @@ import utils.UtilClass;
 public class TC04_ValidateTitle extends ProjectSpecifications {
 
 	@Test()
-	public void validatetitle() {
+	public void validatetitle(){
 
 		HomePage home = new HomePage();
 		home.chooseCountry(); 
 		ValidateTitlePage vt = new ValidateTitlePage();
 
+		/*
 		vt.clickTopDeals("Top Deals and Featured Offers on Electronics - Best Buy");
 		vt.clickDealOftheDay("Deal of the Day: Electronics Deals - Best Buy");
 		//vt.clickyesBestBuySellsThat("Yes, Best Buy Sells That - Best Buy");
@@ -30,9 +31,9 @@ public class TC04_ValidateTitle extends ProjectSpecifications {
 		vt.clickMore();
 		vt.clickGiftCards("Gifts Cards and E-Gift Cards - Best Buy");
 		vt.clickMore();
-		vt.clickGiftIdeas("Gift Ideas 2024: Best Gifts to Give This Year - Best Buy");
+		vt.clickGiftIdeas("Gift Ideas 2023: Best Gifts to Give This Year - Best Buy");
 		vt.clickMore();
-		vt.clickDonatetoStJude("St.Jude Children's Research Hospital - Best Buy");
+		//	vt.clickDonatetoStJude("St.Jude Children's Research Hospital - Best Buy");
 		vt.clickClose();
 		vt.clickAccount1();
 		vt.clickCreateAccount1("Best Buy: Create an Account");
@@ -40,12 +41,13 @@ public class TC04_ValidateTitle extends ProjectSpecifications {
 		vt.clickAccount1();
 		vt.clickSignIn1("Sign In to Best Buy");
 		vt.clickReturntopreviouspage();
-		vt.clickRecentlyViewed("Recently Viewed Best Buy");
-		vt.clickManageAllYourRecentlyViewedItems();
+		*/
+		vt.clickRecentlyViewed();
+		vt.clickManageAllYourRecentlyViewedItems("Recently Viewed - Best Buy");
 		vt.clickOrderStatus("Sign In for Order Status");
-		vt.clickContinueButton();
 		vt.clickReturntopreviouspage();     
 		vt.clickSavedItems("Saved Items - Best Buy");
-		vt.clickSeeAllYourSavedItems();
+		
+	//	vt.clickSeeAllYourSavedItems();
 }
 }

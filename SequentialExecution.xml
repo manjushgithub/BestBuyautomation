@@ -10,12 +10,13 @@
 		<parameter name="browser" value="Chrome" />
 		<classes>
 
-		<!--	<class name="tests.TC01_LoginFunctionality" />  -->	
-     <!--	<class name="tests.TC02_SignUpFunctionality" />   -->
-		<!--	<class name="tests.TC04_ValidateTitle"/>  -->
-			<class name="tests.TC05_ValidateBottomLinks" />
-	<!--	<class name="tests.TC06_AddingItemToCart"/> -->
-	  <!--       <class name="tests.TC07_NavigateCheckoutAndDummyPayment"/> -->
+			<!--	<class name="tests.TC01_LoginFunctionality" />  -->
+			<!--	<class name="tests.TC02_SignUpFunctionality" />   -->
+		<!--	<class name="tests.TC04_ValidateTitle" />   -->
+				<class name="tests.TC05_ValidateBottomLinks" />  
+			<!--	<class name="tests.TC06_AddingItemToCart"/> -->
+			<!--       <class
+			name="tests.TC07_NavigateCheckoutAndDummyPayment"/> -->
 
 		</classes>
 	</test> <!--

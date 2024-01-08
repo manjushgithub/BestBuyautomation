@@ -33,6 +33,9 @@ public class ValidataBottomLinksPage extends ProjectSpecifications{
 	@FindBy (xpath = "//a[contains(@class, 'body-copy-sm mr-200') and contains(text(), 'Do Not Sell/Share My Personal Information')]")
 	WebElement DoNotSellOrShareMyPersonalInformation;
 	
+	@FindBy (xpath = "//a[text()='Return to home page']")
+	WebElement returnToHomePage;
+	
 	@FindBy (xpath = "//a[contains(@class, 'body-copy-sm mr-200') and contains(text(), 'Limit Use of My Sensitive Personal Information')]")
 	WebElement LimitUseofMySensitivePersonalInformation;
 	
@@ -107,5 +110,11 @@ public class ValidataBottomLinksPage extends ProjectSpecifications{
 
 	public void clickReturntopreviouspage() {
 		click(returntopreviouspage);
+	}
+
+
+	public void clickReturnToHomePage() {
+		click(returnToHomePage);
+		
 	}
 }
