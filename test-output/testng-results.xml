@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-08T09:35:25 IST" name="Suite" finished-at="2024-01-08T09:36:24 IST" duration-ms="59066">
+  <suite started-at="2024-01-08T22:03:42 IST" name="Suite" finished-at="2024-01-08T22:04:49 IST" duration-ms="66886">
     <groups>
     </groups>
-    <test started-at="2024-01-08T09:35:25 IST" name="ChromeTest" finished-at="2024-01-08T09:36:24 IST" duration-ms="59066">
+    <test started-at="2024-01-08T22:03:42 IST" name="ChromeTest" finished-at="2024-01-08T22:04:49 IST" duration-ms="66886">
       <class name="tests.TC05_ValidateBottomLinks">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.TC05_ValidateBottomLinks@64b0598]" started-at="2024-01-08T09:35:25 IST" name="launchBrowser" finished-at="2024-01-08T09:35:29 IST" duration-ms="4328" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.TC05_ValidateBottomLinks@64b0598]" started-at="2024-01-08T22:03:42 IST" name="launchBrowser" finished-at="2024-01-08T22:03:48 IST" duration-ms="5676" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="ValidateBottomLinks()[pri:0, instance:tests.TC05_ValidateBottomLinks@64b0598]" started-at="2024-01-08T09:35:29 IST" name="ValidateBottomLinks" finished-at="2024-01-08T09:36:23 IST" duration-ms="54454" status="PASS">
+        <test-method signature="ValidateBottomLinks()[pri:0, instance:tests.TC05_ValidateBottomLinks@64b0598]" started-at="2024-01-08T22:03:48 IST" name="ValidateBottomLinks" finished-at="2024-01-08T22:04:49 IST" duration-ms="60925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateBottomLinks -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC05_ValidateBottomLinks@64b0598]" started-at="2024-01-08T09:36:23 IST" name="closeBrowser" finished-at="2024-01-08T09:36:24 IST" duration-ms="226" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC05_ValidateBottomLinks@64b0598]" started-at="2024-01-08T22:04:49 IST" name="closeBrowser" finished-at="2024-01-08T22:04:49 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
