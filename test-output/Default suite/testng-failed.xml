@@ -8,6 +8,7 @@
           <include name="validatetitle"/>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
+          <include name="validatetitleNegative"/>
         </methods>
       </class> <!-- tests.TC04_ValidateTitle -->
     </classes>

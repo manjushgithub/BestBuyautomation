@@ -9,10 +9,20 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">ChromeTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">66,886</td><td></td><td></td></tr>
+<tr><td><a href="#t0">ChromeTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">114,106</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ChromeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.TC05_ValidateBottomLinks</td><td><a href="#m0">ValidateBottomLinks</a></td><td rowspan="1">1704731628268</td><td rowspan="1">60925</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ChromeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.TC05_ValidateBottomLinks</td><td><a href="#m0">ValidateBottomLinksNegative</a></td><td rowspan="1">1704975988978</td><td rowspan="1">47713</td></tr><tr><th colspan="4">ChromeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.TC05_ValidateBottomLinks</td><td><a href="#m1">ValidateBottomLinks</a></td><td rowspan="1">1704975926336</td><td rowspan="1">60337</td></tr></tbody>
 </table>
-<h2>ChromeTest</h2><h3 id="m0">tests.TC05_ValidateBottomLinks#ValidateBottomLinks</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ChromeTest</h2><h3 id="m0">tests.TC05_ValidateBottomLinks#ValidateBottomLinksNegative</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [California Supply Chain Transparency Act - Best Bui] but found [California Supply Chain Transparency Act - Best Buy]
+	at utils.UtilClass.validateTitle(UtilClass.java:122)
+	at pages.ValidataBottomLinksPage.clickCASupplyChainTransparencyAct(ValidataBottomLinksPage.java:108)
+	at tests.TC05_ValidateBottomLinks.ValidateBottomLinksNegative(TC05_ValidateBottomLinks.java:120)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.TC05_ValidateBottomLinks#ValidateBottomLinks</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

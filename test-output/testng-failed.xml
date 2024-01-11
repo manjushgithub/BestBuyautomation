@@ -11,7 +11,7 @@
         <methods>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
-          <include name="ValidateBottomLinks"/>
+          <include name="ValidateBottomLinksNegative"/>
         </methods>
       </class> <!-- tests.TC05_ValidateBottomLinks -->
     </classes>

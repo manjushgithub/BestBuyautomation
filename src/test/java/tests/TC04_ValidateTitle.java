@@ -16,14 +16,14 @@ import utils.UtilClass;
 
 public class TC04_ValidateTitle extends ProjectSpecifications {
 
-	@Test()
+	@Test(priority = 1)
 	public void validatetitle(){
 
 		HomePage home = new HomePage();
 		home.chooseCountry(); 
 		ValidateTitlePage vt = new ValidateTitlePage();
 
-		/*
+		
 		vt.clickTopDeals("Top Deals and Featured Offers on Electronics - Best Buy");
 		vt.clickDealOftheDay("Deal of the Day: Electronics Deals - Best Buy");
 		//vt.clickyesBestBuySellsThat("Yes, Best Buy Sells That - Best Buy");
@@ -41,13 +41,48 @@ public class TC04_ValidateTitle extends ProjectSpecifications {
 		vt.clickAccount1();
 		vt.clickSignIn1("Sign In to Best Buy");
 		vt.clickReturntopreviouspage();
-		*/
+		
 		vt.clickRecentlyViewed();
 		vt.clickManageAllYourRecentlyViewedItems("Recently Viewed - Best Buy");
 		vt.clickOrderStatus("Sign In for Order Status");
 		vt.clickReturntopreviouspage();     
 		vt.clickSavedItems("Saved Items - Best Buy");
-		
-	//	vt.clickSeeAllYourSavedItems();
+		//vt.clickSeeAllYourSavedItems();
 }
+	
+	
+	@Test(priority = 2)
+	public void validatetitleNegative(){
+
+		HomePage home = new HomePage();
+		home.chooseCountry(); 
+		ValidateTitlePage vt = new ValidateTitlePage();
+
+		
+		vt.clickTopDeals("Top Deals and Featured Offers on Electronics - Best Buy");
+		vt.clickDealOftheDay("Deal of the Day: Electronics Deals - Best Buy");
+		//vt.clickyesBestBuySellsThat("Yes, Best Buy Sells That - Best Buy");
+		vt.clickMyBestBuyMemberships("My Best Buy Memberships");
+		vt.clickMore();
+		vt.clickGiftCards("Gifts Cards and E-Gift Cards - Best Buy");
+		vt.clickMore();
+		vt.clickGiftIdeas("Gift Ideas 2023: Best Gifts to Give This Year - Best Buy");
+		vt.clickMore();
+		//	vt.clickDonatetoStJude("St.Jude Children's Research Hospital - Best Buy");
+		vt.clickClose();
+		vt.clickAccount1();
+		vt.clickCreateAccount1("Best Buy: Create an Account");
+		vt.clickReturntopreviouspage();
+		vt.clickAccount1();
+		vt.clickSignIn1("Sign In to Best Buy");
+		vt.clickReturntopreviouspage();
+		
+		vt.clickRecentlyViewed();
+		vt.clickManageAllYourRecentlyViewedItems("Recently Viewed - Best Buy");
+		vt.clickOrderStatus("Sign In for Order Status");
+		vt.clickReturntopreviouspage();     
+		vt.clickSavedItems("Saved Items - Best Bui");
+		vt.clickSeeAllYourSavedItems();
+}
+	
 }
