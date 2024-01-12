@@ -40,10 +40,10 @@ public class AddingItemToCartPage extends ProjectSpecifications {
 	@FindBy(xpath = "//div[@class='flex-copy-wrapper']/a[@href='/site/refrigerators/french-door-refrigerators/abcat0901004.c?id=abcat0901004']")
 	WebElement frenchdoorrefrigerators;
 
-	@FindBy(xpath = "(//a[@href='/site/samsung-32-cu-ft-3-door-french-door-smart-refrigerator-with-dual-auto-ice-maker-stainless-steel/6546219.p?skuId=6546219'])[2]")
+	@FindBy(xpath = "(//a[@href='/site/samsung-32-cu-ft-3-door-french-door-smart-refrigerator-with-dual-auto-ice-maker-matte-black/6546224.p?skuId=6546224'])[2]")
 	WebElement product2;
 
-	@FindBy(xpath = "(//button[@data-sku-id=6546219])[1]")
+	@FindBy(xpath = "(//button[@data-sku-id=6546224])[1]")
 	WebElement addToCartButton1;
 
 	@FindBy(xpath = "//div[@class = 'go-to-cart-button']")
