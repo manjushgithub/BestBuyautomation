@@ -1,30 +1,18 @@
  package tests;
 
-import java.awt.Desktop;
-import java.io.File;
-import java.io.IOException;
-
-import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
-
-import org.testng.annotations.Test;
-import org.testng.internal.Utils;
-
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-
 import base.ProjectSpecifications;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LogInPage;
-import pages.ValidateTitlePage;
+
+import java.io.IOException;
+
 //import utils.DataSupplierClass;
-import utils.UtilClass;
 
 
 public class TC01_LoginFunctionality extends ProjectSpecifications {
-	
+	//before method run after each and evry test cases to run chnages
 	@BeforeTest()
 	public void setup() {
 		sheetName = "LoginTest";//same name for the sheet in excel sheet
